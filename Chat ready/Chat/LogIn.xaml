@@ -1,0 +1,12 @@
+﻿<Window x:Class="Chat.LogIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Connect as ..." SizeToContent="WidthAndHeight" ResizeMode="NoResize">
+    <StackPanel>
+        <!--<TextBlock Text="Server:" Margin="5"></TextBlock>
+        <TextBox x:Name="Ip" Width="300" Margin="5"></TextBox>-->
+        <TextBlock Text="User name:" Margin="5"></TextBlock>
+        <TextBox x:Name="username" Margin="5" Width="300"></TextBox>
+        <Button x:Name="Connect" Height="20" Width="80" Margin="5" Content="Connect" IsDefault="True" Click="Connect_Click"></Button>
+    </StackPanel>
+</Window>
